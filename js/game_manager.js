@@ -294,7 +294,7 @@ GameManager.prototype.positionsEqual = function (first, second) {
 
 function callbackHandler(value) {
     
-    alert("callbackHandlervalue=" + value );
+    // alert("callbackHandlervalue=" + value );
 
     if(value == null && !isNaN(value)){
         temp = 0;

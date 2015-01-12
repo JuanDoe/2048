@@ -25,6 +25,9 @@
           -webkit-user-select: none; /* Disable selection/copy in UIWebView */
       }
   </style>
+  <script type="text/javascript">
+      document.ontouchmove = function(e) {e.preventDefault()};
+  </script>
     <script type="text/javascript">
         // Weixin
         function registerHandlerForWeixinShareContent()
